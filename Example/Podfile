@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TRectDetector_Example' do
+  pod 'TRectDetector', :path => '../'
+
+  target 'TRectDetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
