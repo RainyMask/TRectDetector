@@ -1,0 +1,6 @@
+framework module TRectDetector {
+  umbrella header "TRectDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}

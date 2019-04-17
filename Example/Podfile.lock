@@ -1,0 +1,16 @@
+PODS:
+  - TRectDetector (0.1.0)
+
+DEPENDENCIES:
+  - TRectDetector (from `../`)
+
+EXTERNAL SOURCES:
+  TRectDetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TRectDetector: 5bb736626f76f2f49e02de1154ecd9ba87637c29
+
+PODFILE CHECKSUM: fc3ce3d2aafbab5e837d1e8bd4eca2a7bc104fb2
+
+COCOAPODS: 1.5.3

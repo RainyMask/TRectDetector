@@ -1,0 +1,6 @@
+framework module Pods_TRectDetector_Tests {
+  umbrella header "Pods-TRectDetector_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
