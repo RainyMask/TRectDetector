@@ -1,18 +1,18 @@
 //
-//  PrefixHeader.pch
-//  Club
+//  Header.h
+//  TRectDetector
 //
-//  Created by NSMIOS on 2017/12/19.
-//  Copyright © 2017年 NSM. All rights reserved.
+//  Created by tao on 2019/4/18.
+//  Copyright © 2019 tao. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
+#ifndef Header_h
+#define Header_h
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#endif /* PrefixHeader_pch */
+#endif /* Header_h */
+
+
 
 #import "UIBarButtonItem+Extension.h"
 #import "BaseViewController.h"

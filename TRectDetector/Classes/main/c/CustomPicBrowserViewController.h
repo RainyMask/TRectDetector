@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "Header.h"
 
 @interface CustomPicBrowserViewController : BaseViewController
 
