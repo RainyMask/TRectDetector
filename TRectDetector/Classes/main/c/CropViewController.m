@@ -11,7 +11,7 @@
 #import "IPDFCalculateManager.h"
 #import "UIImage+Resize.h"
 #import "UIImage+Extension.h"
-#import <GPUImage.h>
+#import "GPUImage.h"
 #import "MagnifierView.h"
 
 @interface CropViewController ()<UIGestureRecognizerDelegate>

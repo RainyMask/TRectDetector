@@ -1,16 +1,35 @@
 PODS:
-  - TRectDetector (0.1.0)
+  - GPUImage (0.1.7)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - TRectDetector (0.1.0):
+    - GPUImage
+    - Masonry
+    - MBProgressHUD
+    - TZImagePickerController
+  - TZImagePickerController (3.2.0)
 
 DEPENDENCIES:
   - TRectDetector (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GPUImage
+    - Masonry
+    - MBProgressHUD
+    - TZImagePickerController
 
 EXTERNAL SOURCES:
   TRectDetector:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TRectDetector: 5bb736626f76f2f49e02de1154ecd9ba87637c29
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  TRectDetector: 29374862a73b0e6dc9ab7e7556f5db4c7300125e
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
 
-PODFILE CHECKSUM: fc3ce3d2aafbab5e837d1e8bd4eca2a7bc104fb2
+PODFILE CHECKSUM: 394924db2cefb5d736b018dc422150fb5e95bded
 
 COCOAPODS: 1.5.3

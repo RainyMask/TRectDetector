@@ -1,0 +1,1 @@
+../../../../../TRectDetector/Classes/tool/UIColor+Hex.h

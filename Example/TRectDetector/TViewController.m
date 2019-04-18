@@ -8,16 +8,27 @@
 
 #import "TViewController.h"
 
+#import "ScannerViewController.h"
+#import "BaseNavViewController.h"
+
 @interface TViewController ()
 
 @end
 
 @implementation TViewController
+- (IBAction)start:(id)sender {
+    
+    BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController: [[ScannerViewController alloc] init]];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+   
+
 }
 
 - (void)didReceiveMemoryWarning

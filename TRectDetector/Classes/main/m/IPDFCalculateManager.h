@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <CoreGraphics/CoreGraphics.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreImage/CoreImage.h>
 

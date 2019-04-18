@@ -15,9 +15,9 @@
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <GLKit/GLKit.h>
-#import <GPUImage.h>
-#import <TZImagePickerController.h>
-#import <TZImageManager.h>
+#import "GPUImage.h"
+#import "TZImagePickerController.h"
+#import "TZImageManager.h"
 
 #import "UIImage+Extension.h"
 #import "UIImage+Resize.h"

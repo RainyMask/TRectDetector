@@ -1,0 +1,1 @@
+../../../../../TRectDetector/Classes/main/m/ScannerCamera.h
