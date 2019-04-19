@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TRectDetector'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '相机矩形识别+自定义裁剪矫正'
 
   s.description      = <<-DESC
