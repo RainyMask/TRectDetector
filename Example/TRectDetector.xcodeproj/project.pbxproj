@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1C59B34B145312C1B28DACB6 /* libPods-TRectDetector_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C940C51C9BBBFFAEDAE19A4 /* libPods-TRectDetector_Example.a */; };
+		2B29B022226972BD000C6AD7 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B29B020226972BD000C6AD7 /* pic1.png */; };
+		2B29B023226972BD000C6AD7 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B29B021226972BD000C6AD7 /* pic2.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		257BC0D65DE8F9E904CDCCC3 /* Pods-TRectDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRectDetector_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRectDetector_Tests/Pods-TRectDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B29B020226972BD000C6AD7 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		2B29B021226972BD000C6AD7 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
 		2F61610DCAED456951270D4B /* Pods-TRectDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRectDetector_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRectDetector_Tests/Pods-TRectDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3934DCCF06520198E3E1A423 /* Pods-TRectDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRectDetector_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRectDetector_Example/Pods-TRectDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		424E12637B447A8B0BAEDD6E /* TRectDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRectDetector.podspec; path = ../TRectDetector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -95,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B29B01F22697286000C6AD7 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2B29B020226972BD000C6AD7 /* pic1.png */,
+				2B29B021226972BD000C6AD7 /* pic2.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		46E55C642DAA23AF6D777B4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +156,7 @@
 		6003F593195388D20070C39A /* Example for TRectDetector */ = {
 			isa = PBXGroup;
 			children = (
+				2B29B01F22697286000C6AD7 /* resource */,
 				6003F59C195388D20070C39A /* TAppDelegate.h */,
 				6003F59D195388D20070C39A /* TAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -277,9 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2B29B022226972BD000C6AD7 /* pic1.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2B29B023226972BD000C6AD7 /* pic2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
