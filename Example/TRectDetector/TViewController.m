@@ -8,8 +8,8 @@
 
 #import "TViewController.h"
 
-#import "ScannerViewController.h"
-#import "BaseNavViewController.h"
+#import "TScannerViewController.h"
+#import "TBaseNavViewController.h"
 
 @interface TViewController ()
 
@@ -18,7 +18,7 @@
 @implementation TViewController
 - (IBAction)start:(id)sender {
     
-    BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController: [[ScannerViewController alloc] init]];
+    TBaseNavViewController *nav = [[TBaseNavViewController alloc] initWithRootViewController: [[TScannerViewController alloc] init]];
     [self presentViewController:nav animated:YES completion:nil];
 }
 

@@ -1,1 +1,0 @@
-../../../../../TRectDetector/Classes/tool/UIImage+RoundedCorner.h
